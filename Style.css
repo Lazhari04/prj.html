@@ -1,0 +1,122 @@
+ 
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+   
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body {
+  background-color: lightblue;
+}
+
+/* home page */
+  .img {
+    width: 100%;
+    height: 100vh;
+  }
+  .heading{
+    color: cornsilk;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  .LOL{
+    color: cornsilk;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+  }
+   /* Welcome section */
+  div.gallery {
+  margin: 10px;
+  border: 10px solid #ccc;
+float: left;
+  width: 600px;
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.video {
+padding:15px ;
+text-align: end;
+}
+/* Contact section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-color);
+  }
+ 
+  h1 {
+  text-shadow: 2px 2px 5px rgb(89, 0, 255);
+}
+
+ h2 {
+  text-shadow: 2px 2px red;
+}
+/* Footer */
+footer > p {
+    margin: 2rem;
+  }
+  
+  footer i {
+    vertical-align: middle;
+  }
+   
+ 
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-color);
+    border-top: 4px solid var(--main-red);
+  }
+  
